@@ -13,13 +13,16 @@
 
 ---
 
-### 🚀 Quick Start — Eén commando, klaar.
+### 🚀 Quick Start — Plak dit in Claude Code
 
-```bash
-git clone https://github.com/North-Star-AI-Academy/north-star-claude-code.git && cd north-star-claude-code && claude
+> Heb je Claude al draaien in **VS Code**, **Terminal** of **Claude Desktop**? Plak deze prompt:
+
+```
+Clone de repo https://github.com/North-Star-AI-Academy/north-star-claude-code.git
+en open de map. Lees het CLAUDE.md bestand en start daarna exercise 1.
 ```
 
-> Claude Code opent, leest het project, en je kunt meteen beginnen met `/start-exercise 1`
+> Dat is alles. Claude kloont de repo, leest het project, en begeleidt je door de eerste oefening. ✨
 
 ---
 
