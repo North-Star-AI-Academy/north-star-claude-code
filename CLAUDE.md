@@ -4,18 +4,77 @@ Dit is het oefenproject voor de **Claude Code: The Full Course 2026** training.
 
 ## Bij het openen van dit project
 
-Wanneer een gebruiker dit project opent of kloont, **verwelkom ze en geef drie duidelijke keuzes**:
+### Scenario 1: De gebruiker heeft ZOJUIST deze repo gekloond (vanuit een ander project)
+
+Als de gebruiker zegt iets als "clone de repo..." of "open de map..." en je merkt dat de werkdirectory NIET de workshop-repo is (geen `exercises/` map, geen `.claude/skills/` met marketing skills), dan:
+
+1. Kloon de repo
+2. Geef DIRECT deze herstart-instructies (in de taal van de gebruiker):
+
+**🇳🇱 Nederlands:**
+
+> ✅ **De repo is gekloond!** Nu moet je Claude Code herstarten in de workshop-map zodat alle skills en commands worden ingeladen.
+>
+> **Zo doe je dat:**
+>
+> **VS Code:**
+> 1. Open VS Code
+> 2. Ga naar **File → Open Folder** en kies de map `north-star-claude-code`
+> 3. Open het Claude paneel opnieuw (Ctrl+Shift+P → "Claude: Open")
+>
+> **Terminal:**
+> 1. Typ `exit` om Claude af te sluiten
+> 2. Typ `cd north-star-claude-code`
+> 3. Typ `claude` om opnieuw te starten
+>
+> **Claude Desktop:**
+> 1. Sluit het huidige project
+> 2. Open de map `north-star-claude-code` als nieuw project
+>
+> Na de herstart begroet Claude je automatisch met de workshop-opties. 🎉
+
+**🇬🇧 English:**
+
+> ✅ **The repo has been cloned!** Now you need to restart Claude Code in the workshop folder so all skills and commands get loaded.
+>
+> **Here's how:**
+>
+> **VS Code:**
+> 1. Open VS Code
+> 2. Go to **File → Open Folder** and select the `north-star-claude-code` folder
+> 3. Reopen the Claude panel (Ctrl+Shift+P → "Claude: Open")
+>
+> **Terminal:**
+> 1. Type `exit` to close Claude
+> 2. Type `cd north-star-claude-code`
+> 3. Type `claude` to start again
+>
+> **Claude Desktop:**
+> 1. Close the current project
+> 2. Open the `north-star-claude-code` folder as a new project
+>
+> After restarting, Claude will automatically greet you with the workshop options. 🎉
+
+**STOP hier. Toon NIET het welkomstmenu. De gebruiker moet eerst herstarten.**
 
 ---
 
-### 🇳🇱 Nederlands
+### Scenario 2: De gebruiker opent Claude Code IN de workshop-map (na herstart of handmatige clone)
+
+Wanneer de werkdirectory wél de workshop-repo is (er bestaan mappen als `exercises/`, `.claude/skills/`, `templates/`), **verwelkom ze en geef drie duidelijke keuzes**:
+
+**Detect the user's language** from their first message and respond in that language. If unclear, show both options below.
+
+---
+
+**🇳🇱 Nederlands:**
 
 > **Welkom bij de North Star Claude Code Workshop!** ⭐
 >
 > Wat wil je doen?
 >
 > **1. 📚 Oefeningen starten** — Werk door 8 levels heen en leer Claude Code stap voor stap
-> → Typ `/start-exercise 1` om te beginnen
+> → Zeg: *"Start oefening 1"*
 >
 > **2. 🎯 Direct met marketing skills werken** — Gebruik de 15 ingebouwde skills meteen
 > → Vraag bijvoorbeeld: *"Schrijf een LinkedIn post over AI voor marketeers"* of *"Maak een cold email sequence voor mijn SaaS product"*
@@ -23,18 +82,18 @@ Wanneer een gebruiker dit project opent of kloont, **verwelkom ze en geef drie d
 >
 > **3. 📝 Skills & templates kopiëren naar je eigen project** — Neem de skills en een CLAUDE.md template mee
 > → Zeg: *"Kopieer alle marketing skills en het growth-marketer template naar mijn project op [pad]"*
-> → ⚠️ **Belangrijk: na het kopiëren moet je Claude Code herstarten** in je eigen project zodat de skills worden ingeladen. Sluit Claude af en start opnieuw in je projectmap.
+> → ⚠️ **Belangrijk: na het kopiëren moet je Claude Code herstarten** in je eigen project zodat de skills worden ingeladen
 
 ---
 
-### 🇬🇧 English
+**🇬🇧 English:**
 
 > **Welcome to the North Star Claude Code Workshop!** ⭐
 >
 > What would you like to do?
 >
 > **1. 📚 Start the exercises** — Work through 8 levels and learn Claude Code step by step
-> → Type `/start-exercise 1` to begin
+> → Say: *"Start exercise 1"*
 >
 > **2. 🎯 Use marketing skills right away** — The 15 built-in skills are ready to go
 > → Try asking: *"Write a LinkedIn post about AI for marketers"* or *"Create a cold email sequence for my SaaS product"*
@@ -42,11 +101,37 @@ Wanneer een gebruiker dit project opent of kloont, **verwelkom ze en geef drie d
 >
 > **3. 📝 Copy skills & templates to your own project** — Take the skills and a CLAUDE.md template with you
 > → Say: *"Copy all marketing skills and the growth-marketer template to my project at [path]"*
-> → ⚠️ **Important: after copying, you need to restart Claude Code** in your own project so the skills get loaded. Close Claude and start it again in your project folder.
+> → ⚠️ **Important: after copying, you need to restart Claude Code** in your own project so the skills get loaded
 
 ---
 
-**Detect the user's language** from their first message and respond in that language. If unclear, show both options above.
+## Oefeningen starten / Starting exercises
+
+Wanneer de gebruiker zegt "Start oefening X" of "Start exercise X" of `/start-exercise X`:
+
+1. Determine the student's preferred language:
+   - Check the recent conversation history for language clues (Dutch or English)
+   - If the student previously interacted in English, use English
+   - If the student previously interacted in Dutch, use Dutch
+   - If unsure, ask: "In welke taal wil je de oefening doen? / Which language do you prefer? (NL/EN)"
+
+2. Find the exercise folder matching the level number: `exercises/0X-*/`
+
+3. Read the appropriate README based on language:
+   - Dutch: read `README.md`
+   - English: read `README.en.md` (if it exists, otherwise fall back to `README.md`)
+
+4. Show a brief summary of what the student will learn
+
+5. Read the assignment(s) in the exercise folder
+
+6. Guide the student step by step through the exercise
+
+7. Give hints if the student gets stuck, but don't give the answer right away
+
+Keep your tone friendly, hands-on, and encouraging. The student is likely a marketer, not a developer. Avoid jargon where possible and explain technical terms.
+
+If no level number was provided, show an overview of all 8 levels with a short description per level.
 
 ## Repo structuur / Structure
 
@@ -88,14 +173,7 @@ Wanneer een gebruiker skills wil kopiëren naar een eigen project:
 
 1. Kopieer de `.claude/skills/` map naar het doelproject
 2. Optioneel: kopieer een template uit `templates/nl/` of `templates/en/` als `CLAUDE.md`
-3. **Geef ALTIJD deze waarschuwing:**
-
-> ⚠️ **Herstart vereist!** De skills zijn gekopieerd, maar Claude Code leest skills alleen bij het opstarten. Sluit Claude Code af en start het opnieuw in je projectmap:
-> - **Terminal**: typ `exit` of druk op `Ctrl+D`, dan `claude` in je projectmap
-> - **VS Code**: sluit het Claude paneel en open het opnieuw
-> - **Claude Desktop**: sluit het project en open het opnieuw
->
-> Na de herstart zijn alle marketing skills direct beschikbaar.
+3. **Geef ALTIJD deze herstart-instructies per platform (zie Scenario 1 hierboven)**
 
 ## Conventies
 

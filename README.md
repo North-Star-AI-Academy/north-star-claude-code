@@ -15,22 +15,35 @@
 
 ---
 
-### 🚀 Quick Start — Paste this into Claude Code
-
-> Already running Claude in **VS Code**, **Terminal** or **Claude Desktop**? Paste this prompt:
-
-```
-Clone the repo https://github.com/North-Star-AI-Academy/north-star-claude-code.git
-and open the folder. Read the CLAUDE.md file.
-```
-
-> Claude clones the repo, reads the project, and gives you **3 options** to choose from. ✨
-
----
+### 🚀 Quick Start — Two steps to get started
 
 </div>
 
+**Step 1 — Clone the repo.** Paste this into Claude Code:
+
+```
+Clone the repo https://github.com/North-Star-AI-Academy/north-star-claude-code.git
+```
+
+**Step 2 — Restart Claude Code in the new folder.**
+
+Skills and commands only load at startup, so you need to reopen Claude Code in the workshop folder:
+
+| Platform | What to do |
+|---|---|
+| **VS Code** | **File → Open Folder** → select `north-star-claude-code` → reopen the Claude panel |
+| **Terminal** | Type `exit` → then `cd north-star-claude-code` → then `claude` |
+| **Claude Desktop** | Close the project → open the `north-star-claude-code` folder as a new project |
+
+> After restarting, Claude greets you and gives you **3 options** to choose from. ✨
+
+---
+
+<div align="center">
+
 ## 🧭 Three ways to use this repo
+
+</div>
 
 When you open this project, Claude presents three clear paths:
 
@@ -39,7 +52,7 @@ When you open this project, Claude presents three clear paths:
 Work through 8 guided levels. Perfect for the live workshop or self-study.
 
 ```
-/start-exercise 1
+Start exercise 1
 ```
 
 ### 🎯 Path 2 — Use the marketing skills right away
@@ -67,8 +80,8 @@ Copy all marketing skills and the growth-marketer template to my project at /pat
 ```
 
 > ⚠️ **Restart required!** After copying skills to another project, you must **restart Claude Code** for the skills to load. Close Claude and reopen it in your project folder:
-> - **Terminal**: type `exit` or press `Ctrl+D`, then run `claude` in your project
-> - **VS Code**: close and reopen the Claude panel
+> - **VS Code**: File → Open Folder → select your project → reopen Claude panel
+> - **Terminal**: type `exit`, then `cd your-project` and run `claude`
 > - **Claude Desktop**: close and reopen the project
 
 ---
