@@ -88,19 +88,24 @@ Kant-en-klare projectgeheugens voor elke marketing rol. Kopieer naar je eigen pr
 | 🏢 `agency.md` | Bureaus met meerdere klanten |
 | 🛒 `ecommerce.md` | Webshops, DTC brands |
 
-```bash
-# Kopieer een template naar je eigen project
-cp templates/growth-marketer.md /pad/naar/je-project/CLAUDE.md
+Zeg tegen Claude:
+
+```
+Kopieer het growth-marketer template naar mijn project als CLAUDE.md
 ```
 
 ## 🔧 Skills kopiëren naar je eigen project
 
-```bash
-# Alle skills in één keer
-cp -r .claude/skills/ /pad/naar/je-project/.claude/skills/
+Zeg tegen Claude:
 
-# Of één specifieke skill
-cp .claude/skills/copywriting.md /pad/naar/je-project/.claude/skills/
+```
+Kopieer alle marketing skills uit deze workshop naar mijn project op /pad/naar/je-project
+```
+
+Of voor één specifieke skill:
+
+```
+Kopieer de copywriting skill naar mijn project
 ```
 
 ## 💬 Custom Slash Commands
@@ -114,10 +119,12 @@ cp .claude/skills/copywriting.md /pad/naar/je-project/.claude/skills/
 
 Mis je een skill? Heb je een beter template? PRs zijn welkom!
 
-1. Fork de repo
-2. Maak een branch (`feature/mijn-skill`)
-3. Voeg je skill toe in `.claude/skills/`
-4. Open een PR
+Zeg tegen Claude:
+
+```
+Fork deze repo, maak een nieuwe branch voor mijn skill, en help me
+een marketing skill toevoegen in .claude/skills/
+```
 
 ## 📄 Licentie
 
