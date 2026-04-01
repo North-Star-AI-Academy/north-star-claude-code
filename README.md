@@ -15,27 +15,37 @@
 
 ---
 
-### 🚀 Quick Start — Two steps to get started
+### 🚀 Quick Start — Three steps to get going
 
 </div>
 
-**Step 1 — Clone the repo.** Paste this into Claude Code:
+#### Step 1 — Clone the repo
+
+Open Claude Code wherever you have it (VS Code, Terminal, or Claude Desktop) and paste:
 
 ```
 Clone the repo https://github.com/North-Star-AI-Academy/north-star-claude-code.git
 ```
 
-**Step 2 — Restart Claude Code in the new folder.**
+#### Step 2 — Restart Claude Code in the workshop folder
 
-Skills and commands only load at startup, so you need to reopen Claude Code in the workshop folder:
+Claude needs to restart in the new folder to load the skills and commands. **This is required — don't skip this step!**
 
 | Platform | What to do |
 |---|---|
-| **VS Code** | **File → Open Folder** → select `north-star-claude-code` → reopen the Claude panel |
+| **VS Code** | Go to **File → Open Folder** → select `north-star-claude-code` → reopen the Claude panel (Ctrl+Shift+P → "Claude: Open") |
 | **Terminal** | Type `exit` → then `cd north-star-claude-code` → then `claude` |
 | **Claude Desktop** | Close the project → open the `north-star-claude-code` folder as a new project |
 
-> After restarting, Claude greets you and gives you **3 options** to choose from. ✨
+#### Step 3 — Type `start` and press Enter
+
+After restarting, you'll see an empty input field. Type:
+
+```
+start
+```
+
+> Claude reads the project, loads the 15 marketing skills, and presents you with **3 options** to choose from. ✨
 
 ---
 
@@ -45,7 +55,7 @@ Skills and commands only load at startup, so you need to reopen Claude Code in t
 
 </div>
 
-When you open this project, Claude presents three clear paths:
+After typing `start`, Claude presents three clear paths:
 
 ### 📚 Path 1 — Learn Claude Code step by step
 
@@ -79,10 +89,13 @@ Take everything with you to use in your own projects:
 Copy all marketing skills and the growth-marketer template to my project at /path/to/my-project
 ```
 
-> ⚠️ **Restart required!** After copying skills to another project, you must **restart Claude Code** for the skills to load. Close Claude and reopen it in your project folder:
-> - **VS Code**: File → Open Folder → select your project → reopen Claude panel
-> - **Terminal**: type `exit`, then `cd your-project` and run `claude`
-> - **Claude Desktop**: close and reopen the project
+> ⚠️ **Restart required!** After copying skills to another project, you must **restart Claude Code** in your project folder and type `start`. Skills only load at startup.
+>
+> | Platform | What to do |
+> |---|---|
+> | **VS Code** | **File → Open Folder** → select your project → reopen Claude panel |
+> | **Terminal** | Type `exit` → `cd your-project` → `claude` |
+> | **Claude Desktop** | Close the project → reopen your project folder |
 
 ---
 

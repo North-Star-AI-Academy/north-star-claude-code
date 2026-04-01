@@ -13,57 +13,57 @@ Als de gebruiker zegt iets als "clone de repo..." of "open de map..." en je merk
 
 **🇳🇱 Nederlands:**
 
-> ✅ **De repo is gekloond!** Nu moet je Claude Code herstarten in de workshop-map zodat alle skills en commands worden ingeladen.
+> ✅ **De repo is gekloond!** Nu moet je Claude Code herstarten in de workshop-map. Volg deze 2 stappen:
 >
-> **Zo doe je dat:**
+> ---
 >
 > **VS Code:**
-> 1. Open VS Code
-> 2. Ga naar **File → Open Folder** en kies de map `north-star-claude-code`
-> 3. Open het Claude paneel opnieuw (Ctrl+Shift+P → "Claude: Open")
+> 1. Ga naar **File → Open Folder** en kies de map `north-star-claude-code`
+> 2. Open het Claude paneel opnieuw (Ctrl+Shift+P → "Claude: Open")
+> 3. Typ `start` in het Claude invoerveld en druk op Enter
 >
 > **Terminal:**
 > 1. Typ `exit` om Claude af te sluiten
 > 2. Typ `cd north-star-claude-code`
 > 3. Typ `claude` om opnieuw te starten
+> 4. Typ `start` en druk op Enter
 >
 > **Claude Desktop:**
 > 1. Sluit het huidige project
 > 2. Open de map `north-star-claude-code` als nieuw project
->
-> Na de herstart begroet Claude je automatisch met de workshop-opties. 🎉
+> 3. Typ `start` in het invoerveld en druk op Enter
 
 **🇬🇧 English:**
 
-> ✅ **The repo has been cloned!** Now you need to restart Claude Code in the workshop folder so all skills and commands get loaded.
+> ✅ **The repo has been cloned!** Now you need to restart Claude Code in the workshop folder. Follow these 2 steps:
 >
-> **Here's how:**
+> ---
 >
 > **VS Code:**
-> 1. Open VS Code
-> 2. Go to **File → Open Folder** and select the `north-star-claude-code` folder
-> 3. Reopen the Claude panel (Ctrl+Shift+P → "Claude: Open")
+> 1. Go to **File → Open Folder** and select the `north-star-claude-code` folder
+> 2. Reopen the Claude panel (Ctrl+Shift+P → "Claude: Open")
+> 3. Type `start` in the Claude input field and press Enter
 >
 > **Terminal:**
 > 1. Type `exit` to close Claude
 > 2. Type `cd north-star-claude-code`
 > 3. Type `claude` to start again
+> 4. Type `start` and press Enter
 >
 > **Claude Desktop:**
 > 1. Close the current project
 > 2. Open the `north-star-claude-code` folder as a new project
->
-> After restarting, Claude will automatically greet you with the workshop options. 🎉
+> 3. Type `start` in the input field and press Enter
 
 **STOP hier. Toon NIET het welkomstmenu. De gebruiker moet eerst herstarten.**
 
 ---
 
-### Scenario 2: De gebruiker opent Claude Code IN de workshop-map (na herstart of handmatige clone)
+### Scenario 2: De gebruiker opent Claude Code IN de workshop-map
 
-Wanneer de werkdirectory wél de workshop-repo is (er bestaan mappen als `exercises/`, `.claude/skills/`, `templates/`), **verwelkom ze en geef drie duidelijke keuzes**:
+Wanneer de werkdirectory wél de workshop-repo is (er bestaan mappen als `exercises/`, `.claude/skills/`, `templates/`), en de gebruiker stuurt een bericht (zoals "start", "hallo", "hi", "begin", of wat dan ook), **verwelkom ze en geef drie duidelijke keuzes**.
 
-**Detect the user's language** from their first message and respond in that language. If unclear, show both options below.
+**Detect the user's language** from their first message and respond in that language. If the message is just "start" or unclear, show both language options below.
 
 ---
 

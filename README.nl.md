@@ -15,27 +15,37 @@
 
 ---
 
-### 🚀 Quick Start — Twee stappen om te beginnen
+### 🚀 Quick Start — Drie stappen om te beginnen
 
 </div>
 
-**Stap 1 — Kloon de repo.** Plak dit in Claude Code:
+#### Stap 1 — Kloon de repo
+
+Open Claude Code waar je het hebt (VS Code, Terminal, of Claude Desktop) en plak:
 
 ```
 Clone de repo https://github.com/North-Star-AI-Academy/north-star-claude-code.git
 ```
 
-**Stap 2 — Herstart Claude Code in de nieuwe map.**
+#### Stap 2 — Herstart Claude Code in de workshop-map
 
-Skills en commands worden alleen bij het opstarten ingeladen, dus je moet Claude Code heropenen in de workshop-map:
+Claude moet herstarten in de nieuwe map om de skills en commands in te laden. **Dit is verplicht — sla deze stap niet over!**
 
 | Platform | Wat te doen |
 |---|---|
-| **VS Code** | **File → Open Folder** → kies `north-star-claude-code` → heropen het Claude paneel |
+| **VS Code** | Ga naar **File → Open Folder** → kies `north-star-claude-code` → heropen het Claude paneel (Ctrl+Shift+P → "Claude: Open") |
 | **Terminal** | Typ `exit` → dan `cd north-star-claude-code` → dan `claude` |
 | **Claude Desktop** | Sluit het project → open de map `north-star-claude-code` als nieuw project |
 
-> Na de herstart begroet Claude je en geeft je **3 opties** om uit te kiezen. ✨
+#### Stap 3 — Typ `start` en druk op Enter
+
+Na de herstart zie je een leeg invoerveld. Typ:
+
+```
+start
+```
+
+> Claude leest het project, laadt de 15 marketing skills, en geeft je **3 opties** om uit te kiezen. ✨
 
 ---
 
@@ -45,7 +55,7 @@ Skills en commands worden alleen bij het opstarten ingeladen, dus je moet Claude
 
 </div>
 
-Wanneer je dit project opent, geeft Claude drie duidelijke paden:
+Na het typen van `start` geeft Claude drie duidelijke paden:
 
 ### 📚 Pad 1 — Leer Claude Code stap voor stap
 
@@ -79,10 +89,13 @@ Neem alles mee om te gebruiken in je eigen projecten:
 Kopieer alle marketing skills en het growth-marketer template naar mijn project op /pad/naar/mijn-project
 ```
 
-> ⚠️ **Herstart vereist!** Na het kopiëren van skills naar een ander project moet je **Claude Code herstarten** zodat de skills worden ingeladen:
-> - **VS Code**: File → Open Folder → kies je project → heropen het Claude paneel
-> - **Terminal**: typ `exit`, dan `cd je-project` en run `claude`
-> - **Claude Desktop**: sluit het project en open het opnieuw
+> ⚠️ **Herstart vereist!** Na het kopiëren van skills naar een ander project moet je **Claude Code herstarten** in je projectmap en `start` typen. Skills worden alleen bij het opstarten ingeladen.
+>
+> | Platform | Wat te doen |
+> |---|---|
+> | **VS Code** | **File → Open Folder** → kies je project → heropen het Claude paneel |
+> | **Terminal** | Typ `exit` → `cd je-project` → `claude` |
+> | **Claude Desktop** | Sluit het project → heropen je projectmap |
 
 ---
 
