@@ -21,14 +21,65 @@
 
 ```
 Clone the repo https://github.com/North-Star-AI-Academy/north-star-claude-code.git
-and open the folder. Read the CLAUDE.md file and then start exercise 1.
+and open the folder. Read the CLAUDE.md file.
 ```
 
-> That's it. Claude clones the repo, reads the project, and walks you through the first exercise. ✨
+> Claude clones the repo, reads the project, and gives you **3 options** to choose from. ✨
 
 ---
 
 </div>
+
+## 🧭 Three ways to use this repo
+
+When you open this project, Claude presents three clear paths:
+
+### 📚 Path 1 — Learn Claude Code step by step
+
+Work through 8 guided levels. Perfect for the live workshop or self-study.
+
+```
+/start-exercise 1
+```
+
+### 🎯 Path 2 — Use the marketing skills right away
+
+The 15 skills are **already active** in this project. Just ask a question:
+
+```
+Write a LinkedIn post about AI trends for B2B marketers
+```
+```
+Create a cold email sequence for my SaaS product targeting marketing agencies
+```
+```
+Audit the SEO of my website homepage
+```
+
+No setup needed — skills activate automatically based on your question.
+
+### 📝 Path 3 — Copy skills & templates to your own project
+
+Take everything with you to use in your own projects:
+
+```
+Copy all marketing skills and the growth-marketer template to my project at /path/to/my-project
+```
+
+> ⚠️ **Restart required!** After copying skills to another project, you must **restart Claude Code** for the skills to load. Close Claude and reopen it in your project folder:
+> - **Terminal**: type `exit` or press `Ctrl+D`, then run `claude` in your project
+> - **VS Code**: close and reopen the Claude panel
+> - **Claude Desktop**: close and reopen the project
+
+---
+
+## 🌍 Bilingual
+
+All content is available in **English** and **Dutch**. Just tell Claude which language you prefer.
+
+- Exercises: `README.en.md` (English) · `README.md` (Dutch)
+- Templates: `templates/en/` · `templates/nl/`
+- Cheatsheet: `cheatsheet/claude-code-cheatsheet.en.md` · `cheatsheet/claude-code-cheatsheet.md`
 
 ## 📦 What's inside?
 
@@ -42,16 +93,6 @@ north-star-claude-code/
 ├── 🔧 mcp-configs/           MCP server examples
 └── 📋 cheatsheet/            Claude Code quick reference
 ```
-
-## 🌍 Bilingual
-
-All exercises, templates, and docs are available in **English** and **Dutch**.
-
-- Exercises: `README.en.md` (English) · `README.md` (Dutch)
-- Templates: `templates/en/` · `templates/nl/`
-- Cheatsheet: `cheatsheet/claude-code-cheatsheet.en.md` · `cheatsheet/claude-code-cheatsheet.md`
-
-> 💡 Just tell Claude which language you prefer — it adapts automatically.
 
 ## 🎮 The 8 Levels
 
@@ -90,7 +131,7 @@ Skills **activate automatically** when you ask a relevant question. No configura
 
 ## 📝 CLAUDE.md Templates
 
-Ready-to-use project memory for every marketing role. Available in English and Dutch:
+Ready-to-use project memory for every marketing role:
 
 | Template | Who it's for |
 |---|---|
@@ -100,27 +141,7 @@ Ready-to-use project memory for every marketing role. Available in English and D
 | 🏢 `agency.md` | Agencies with multiple clients |
 | 🛒 `ecommerce.md` | Webshops, DTC brands |
 
-Tell Claude:
-
-```
-Copy the growth-marketer template (English) to my project as CLAUDE.md
-```
-
-## 🔧 Copy skills to your own project
-
-Tell Claude:
-
-```
-Copy all marketing skills from this workshop to my project at /path/to/my-project
-```
-
-Or for a single skill:
-
-```
-Copy the copywriting skill to my project
-```
-
-## 💬 Custom Slash Commands
+## 💬 Slash Commands
 
 | Command | What it does |
 |---|---|
@@ -130,8 +151,6 @@ Copy the copywriting skill to my project
 ## 🤝 Contributing
 
 Missing a skill? Have a better template? PRs are welcome!
-
-Tell Claude:
 
 ```
 Fork this repo, create a new branch for my skill, and help me
