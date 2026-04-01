@@ -1,11 +1,13 @@
 <div align="center">
 
+🇬🇧 **English** · [🇳🇱 Nederlands](README.nl.md)
+
 # ⭐ North Star Claude Code Workshop
 
 ### *Claude Code: The Full Course 2026*
 
-**De hands-on repo voor marketeers die Claude Code leren beheersen.**<br>
-8 levels. 15 marketing skills. Van nul tot een herhaalbaar AI-werkproces.
+**The hands-on repo for marketers mastering Claude Code.**<br>
+8 levels. 15 marketing skills. From zero to a repeatable AI workflow.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude_Code-2026-7C3AED.svg)](https://claude.ai/claude-code)
@@ -13,130 +15,140 @@
 
 ---
 
-### 🚀 Quick Start — Plak dit in Claude Code
+### 🚀 Quick Start — Paste this into Claude Code
 
-> Heb je Claude al draaien in **VS Code**, **Terminal** of **Claude Desktop**? Plak deze prompt:
+> Already running Claude in **VS Code**, **Terminal** or **Claude Desktop**? Paste this prompt:
 
 ```
-Clone de repo https://github.com/North-Star-AI-Academy/north-star-claude-code.git
-en open de map. Lees het CLAUDE.md bestand en start daarna exercise 1.
+Clone the repo https://github.com/North-Star-AI-Academy/north-star-claude-code.git
+and open the folder. Read the CLAUDE.md file and then start exercise 1.
 ```
 
-> Dat is alles. Claude kloont de repo, leest het project, en begeleidt je door de eerste oefening. ✨
+> That's it. Claude clones the repo, reads the project, and walks you through the first exercise. ✨
 
 ---
 
 </div>
 
-## 📦 Wat zit erin?
+## 📦 What's inside?
 
 ```
 north-star-claude-code/
 │
-├── 🎯 .claude/skills/        15 marketing skills — direct bruikbaar
-├── ⚡ .claude/commands/       Slash commands voor de workshop
-├── 📚 exercises/              8 levels met hands-on opdrachten
-├── 📝 templates/              CLAUDE.md per marketing rol
-├── 🔧 mcp-configs/           MCP server voorbeelden
+├── 🎯 .claude/skills/        15 marketing skills — ready to use
+├── ⚡ .claude/commands/       Slash commands for the workshop
+├── 📚 exercises/              8 levels with hands-on assignments
+├── 📝 templates/              CLAUDE.md per marketing role (en/ & nl/)
+├── 🔧 mcp-configs/           MCP server examples
 └── 📋 cheatsheet/            Claude Code quick reference
 ```
 
-## 🎮 De 8 Levels
+## 🌍 Bilingual
 
-| | Level | Wat je leert | ⏱️ |
+All exercises, templates, and docs are available in **English** and **Dutch**.
+
+- Exercises: `README.en.md` (English) · `README.md` (Dutch)
+- Templates: `templates/en/` · `templates/nl/`
+- Cheatsheet: `cheatsheet/claude-code-cheatsheet.en.md` · `cheatsheet/claude-code-cheatsheet.md`
+
+> 💡 Just tell Claude which language you prefer — it adapts automatically.
+
+## 🎮 The 8 Levels
+
+| | Level | What you'll learn | ⏱️ |
 |---|---|---|---|
-| 🟢 | **1. Hello Claude** | Installatie, permissions, eerste commando's | 10 min |
-| 🧠 | **2. Project Memory** | CLAUDE.md, globale regels, context priming | 15 min |
-| 🎯 | **3. Marketing Skills** | Skills activeren, combineren, zelf maken | 20 min |
-| 🔧 | **4. MCP Tools** | Externe tools verbinden (GitHub, web research) | 15 min |
-| 📊 | **5. Context Management** | Context window als budget, compact, sub-agents | 15 min |
-| 🔀 | **6. Git Workflows** | Branches, commits, worktrees met Claude | 15 min |
-| ⚡ | **7. Build Your Process** | Custom commands, hooks, herhaalbaar werkproces | 15 min |
-| 🏗️ | **8. The Minimum Stack** | Je persoonlijke setup meenemen | 10 min |
+| 🟢 | **1. Hello Claude** | Installation, permissions, first commands | 10 min |
+| 🧠 | **2. Project Memory** | CLAUDE.md, global rules, context priming | 15 min |
+| 🎯 | **3. Marketing Skills** | Activate, combine, and create skills | 20 min |
+| 🔧 | **4. MCP Tools** | Connect external tools (GitHub, web research) | 15 min |
+| 📊 | **5. Context Management** | Context window as a budget, compact, sub-agents | 15 min |
+| 🔀 | **6. Git Workflows** | Branches, commits, worktrees with Claude | 15 min |
+| ⚡ | **7. Build Your Process** | Custom commands, hooks, repeatable workflow | 15 min |
+| 🏗️ | **8. The Minimum Stack** | Take your personal setup home | 10 min |
 
 ## 🎯 15 Marketing Skills
 
-Skills worden **automatisch geactiveerd** wanneer je een relevante vraag stelt. Geen configuratie nodig.
+Skills **activate automatically** when you ask a relevant question. No configuration needed.
 
-| Skill | Trigger | Voorbeeld |
+| Skill | Trigger | Example |
 |---|---|---|
-| ✍️ `copywriting` | "schrijf copy voor..." | Homepage, landing pages, product pages |
-| 📧 `cold-email` | "cold email sequence..." | B2B outreach met personalisatie |
+| ✍️ `copywriting` | "write copy for..." | Homepage, landing pages, product pages |
+| 📧 `cold-email` | "cold email sequence..." | B2B outreach with personalization |
 | 📱 `social-content` | "LinkedIn post..." | Platform-native content |
 | 📬 `email-sequence` | "drip campaign..." | Welcome flows, nurture, win-back |
-| 🔍 `seo-audit` | "SEO check..." | Technische + on-page diagnose |
-| 📢 `ad-creative` | "Google Ads copy..." | Headlines, descriptions, variaties |
-| 📝 `content-strategy` | "content plan..." | Topic clusters, content kalender |
-| 📈 `page-cro` | "conversie verbeteren..." | CRO audit + quick wins |
-| 🏠 `landing-page` | "landing page maken..." | Complete pagina structuur + copy |
-| ⚔️ `competitor-analysis` | "concurrent analyseren..." | SWOT, battle cards, vs-pages |
-| 🏷️ `schema-markup` | "structured data..." | JSON-LD voor rich snippets |
-| 💡 `marketing-ideas` | "marketing ideeën..." | 100+ bewezen groeistrategieën |
-| ✏️ `copy-editing` | "verbeter deze copy..." | 4-pass editing systeem |
-| 🧪 `ab-testing` | "A/B test opzetten..." | Hypothese → experiment → meting |
-| 🎨 `product-context` | "brand context..." | Fundament voor alle andere skills |
+| 🔍 `seo-audit` | "SEO check..." | Technical + on-page diagnosis |
+| 📢 `ad-creative` | "Google Ads copy..." | Headlines, descriptions, variations |
+| 📝 `content-strategy` | "content plan..." | Topic clusters, content calendar |
+| 📈 `page-cro` | "improve conversions..." | CRO audit + quick wins |
+| 🏠 `landing-page` | "build a landing page..." | Complete page structure + copy |
+| ⚔️ `competitor-analysis` | "analyze competitor..." | SWOT, battle cards, vs-pages |
+| 🏷️ `schema-markup` | "structured data..." | JSON-LD for rich snippets |
+| 💡 `marketing-ideas` | "marketing ideas..." | 100+ proven growth strategies |
+| ✏️ `copy-editing` | "improve this copy..." | 4-pass editing system |
+| 🧪 `ab-testing` | "set up A/B test..." | Hypothesis → experiment → measurement |
+| 🎨 `product-context` | "brand context..." | Foundation for all other skills |
 
 ## 📝 CLAUDE.md Templates
 
-Kant-en-klare projectgeheugens voor elke marketing rol. Kopieer naar je eigen project:
+Ready-to-use project memory for every marketing role. Available in English and Dutch:
 
-| Template | Voor wie |
+| Template | Who it's for |
 |---|---|
-| 👔 `marketing-manager.md` | Team leads, campagne managers |
-| ✍️ `content-creator.md` | Writers, content marketeers |
+| 👔 `marketing-manager.md` | Team leads, campaign managers |
+| ✍️ `content-creator.md` | Writers, content marketers |
 | 📈 `growth-marketer.md` | Growth, demand gen, outbound |
-| 🏢 `agency.md` | Bureaus met meerdere klanten |
+| 🏢 `agency.md` | Agencies with multiple clients |
 | 🛒 `ecommerce.md` | Webshops, DTC brands |
 
-Zeg tegen Claude:
+Tell Claude:
 
 ```
-Kopieer het growth-marketer template naar mijn project als CLAUDE.md
+Copy the growth-marketer template (English) to my project as CLAUDE.md
 ```
 
-## 🔧 Skills kopiëren naar je eigen project
+## 🔧 Copy skills to your own project
 
-Zeg tegen Claude:
-
-```
-Kopieer alle marketing skills uit deze workshop naar mijn project op /pad/naar/je-project
-```
-
-Of voor één specifieke skill:
+Tell Claude:
 
 ```
-Kopieer de copywriting skill naar mijn project
+Copy all marketing skills from this workshop to my project at /path/to/my-project
+```
+
+Or for a single skill:
+
+```
+Copy the copywriting skill to my project
 ```
 
 ## 💬 Custom Slash Commands
 
-| Command | Wat het doet |
+| Command | What it does |
 |---|---|
-| `/start-exercise 1` | Start een oefening (1-8) met begeleiding |
-| `/check-progress` | Bekijk je voortgang door alle levels |
+| `/start-exercise 1` | Start an exercise (1-8) with guided walkthrough |
+| `/check-progress` | View your progress across all levels |
 
-## 🤝 Bijdragen
+## 🤝 Contributing
 
-Mis je een skill? Heb je een beter template? PRs zijn welkom!
+Missing a skill? Have a better template? PRs are welcome!
 
-Zeg tegen Claude:
+Tell Claude:
 
 ```
-Fork deze repo, maak een nieuwe branch voor mijn skill, en help me
-een marketing skill toevoegen in .claude/skills/
+Fork this repo, create a new branch for my skill, and help me
+add a marketing skill in .claude/skills/
 ```
 
-## 📄 Licentie
+## 📄 License
 
-MIT — Vrij te gebruiken, aan te passen en te delen.
+MIT — Free to use, modify, and share.
 
 ---
 
 <div align="center">
 
-**Gemaakt met ❤️ door [North Star AI Academy](https://www.northstar-academy.ai)**
+**Made with ❤️ by [North Star AI Academy](https://www.northstar-academy.ai)**
 
-*AI trainingen voor marketeers — Antwerpen & Amsterdam*
+*AI training for marketers — Antwerp & Amsterdam*
 
 [🌐 Website](https://www.northstar-academy.ai) · [📧 Contact](mailto:hello@northstar-academy.ai) · [💼 LinkedIn](https://www.linkedin.com/company/north-star-ai-academy)
 

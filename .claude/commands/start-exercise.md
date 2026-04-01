@@ -1,11 +1,25 @@
-Start oefening level $ARGUMENTS voor de Claude Code workshop.
+Start exercise level $ARGUMENTS for the Claude Code workshop.
 
-1. Lees het bestand `exercises/0$ARGUMENTS-*/README.md` (zoek de juiste map op basis van het level nummer)
-2. Toon een korte samenvatting van wat de student gaat leren
-3. Lees de opdracht(en) in de exercise map
-4. Begeleid de student stap voor stap door de oefening
-5. Geef hints als de student vastloopt, maar geef niet meteen het antwoord
+1. Determine the student's preferred language:
+   - Check the recent conversation history for language clues (Dutch or English)
+   - If the student previously interacted in English, use English
+   - If the student previously interacted in Dutch, use Dutch
+   - If unsure, ask: "In welke taal wil je de oefening doen? / Which language do you prefer for this exercise? (NL/EN)"
 
-Houd je toon vriendelijk, hands-on en aanmoedigend. De student is waarschijnlijk een marketeer, geen developer. Vermijd jargon waar mogelijk en leg technische termen uit.
+2. Find the exercise folder matching the level number: `exercises/0$ARGUMENTS-*/`
 
-Als er geen level nummer is meegegeven, toon dan een overzicht van alle 8 levels met een korte beschrijving per level.
+3. Read the appropriate README based on language:
+   - Dutch: read `README.md`
+   - English: read `README.en.md` (if it exists, otherwise fall back to `README.md`)
+
+4. Show a brief summary of what the student will learn
+
+5. Read the assignment(s) in the exercise folder
+
+6. Guide the student step by step through the exercise
+
+7. Give hints if the student gets stuck, but don't give the answer right away
+
+Keep your tone friendly, hands-on, and encouraging. The student is likely a marketer, not a developer. Avoid jargon where possible and explain technical terms.
+
+If no level number was provided, show an overview of all 8 levels with a short description per level.
