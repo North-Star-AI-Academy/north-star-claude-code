@@ -15,37 +15,69 @@
 
 ---
 
-### 🚀 Quick Start — Three steps to get going
+### 🚀 Getting Started
 
 </div>
 
-#### Step 1 — Clone the repo
+Follow these 3 steps. **Do them in order — each step builds on the previous one.**
 
-Open Claude Code wherever you have it (VS Code, Terminal, or Claude Desktop) and paste:
+---
+
+#### Step 1 — Download the workshop
+
+Open Claude Code (in VS Code, Terminal, or Claude Desktop) and paste this:
 
 ```
 Clone the repo https://github.com/North-Star-AI-Academy/north-star-claude-code.git
 ```
 
-#### Step 2 — Restart Claude Code in the workshop folder
+Claude downloads all the files. When it's done, continue to step 2.
 
-Claude needs to restart in the new folder to load the skills and commands. **This is required — don't skip this step!**
+---
 
-| Platform | What to do |
-|---|---|
-| **VS Code** | Go to **File → Open Folder** → select `north-star-claude-code` → reopen the Claude panel (Ctrl+Shift+P → "Claude: Open") |
-| **Terminal** | Type `exit` → then `cd north-star-claude-code` → then `claude` |
-| **Claude Desktop** | Close the project → open the `north-star-claude-code` folder as a new project |
+#### Step 2 — Open the workshop folder (this activates the skills)
+
+The 15 marketing skills and exercises only work when Claude Code is running **inside the workshop folder**. You need to open that folder and restart Claude:
+
+<details>
+<summary><strong>🖥️ I'm using VS Code</strong> (click to expand)</summary>
+
+1. In VS Code, go to **File → Open Folder**
+2. Find and select the `north-star-claude-code` folder
+3. Reopen the Claude panel: press `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac), type **Claude**, and click **"Claude: Open"**
+
+</details>
+
+<details>
+<summary><strong>⬛ I'm using Terminal</strong> (click to expand)</summary>
+
+1. Type `exit` to close Claude
+2. Type `cd north-star-claude-code`
+3. Type `claude` to start again
+
+</details>
+
+<details>
+<summary><strong>🖱️ I'm using Claude Desktop</strong> (click to expand)</summary>
+
+1. Close the current project
+2. Open the `north-star-claude-code` folder as a new project
+
+</details>
+
+> 💡 **Why this step?** Claude Code loads skills and commands when it starts up in a folder. Without this step, the 15 marketing skills won't be available.
+
+---
 
 #### Step 3 — Type `start` and press Enter
 
-After restarting, you'll see an empty input field. Type:
+After reopening, you'll see an empty input field. Type:
 
 ```
 start
 ```
 
-> Claude reads the project, loads the 15 marketing skills, and presents you with **3 options** to choose from. ✨
+Claude loads the workshop and gives you **3 options** to choose from. ✨
 
 ---
 
@@ -89,13 +121,7 @@ Take everything with you to use in your own projects:
 Copy all marketing skills and the growth-marketer template to my project at /path/to/my-project
 ```
 
-> ⚠️ **Restart required!** After copying skills to another project, you must **restart Claude Code** in your project folder and type `start`. Skills only load at startup.
->
-> | Platform | What to do |
-> |---|---|
-> | **VS Code** | **File → Open Folder** → select your project → reopen Claude panel |
-> | **Terminal** | Type `exit` → `cd your-project` → `claude` |
-> | **Claude Desktop** | Close the project → reopen your project folder |
+> ⚠️ **After copying, repeat step 2 and 3 in your own project folder.** Claude Code needs to restart there to load the skills.
 
 ---
 

@@ -9,53 +9,71 @@ Dit is het oefenproject voor de **Claude Code: The Full Course 2026** training.
 Als de gebruiker zegt iets als "clone de repo..." of "open de map..." en je merkt dat de werkdirectory NIET de workshop-repo is (geen `exercises/` map, geen `.claude/skills/` met marketing skills), dan:
 
 1. Kloon de repo
-2. Geef DIRECT deze herstart-instructies (in de taal van de gebruiker):
+2. Geef DIRECT deze instructies (in de taal van de gebruiker). **Toon het welkomstmenu NOG NIET.**
 
 **🇳🇱 Nederlands:**
 
-> ✅ **De repo is gekloond!** Nu moet je Claude Code herstarten in de workshop-map. Volg deze 2 stappen:
+> ✅ **De repo is gekloond!**
+>
+> De 15 marketing skills en workshop-commando's moeten nu nog geactiveerd worden. Dat gebeurt automatisch zodra je Claude Code opent in de workshop-map.
+>
+> **Volg deze stappen:**
 >
 > ---
 >
 > **VS Code:**
-> 1. Ga naar **File → Open Folder** en kies de map `north-star-claude-code`
-> 2. Open het Claude paneel opnieuw (Ctrl+Shift+P → "Claude: Open")
-> 3. Typ `start` in het Claude invoerveld en druk op Enter
+> 1. Ga naar **File → Open Folder**
+> 2. Kies de map `north-star-claude-code`
+> 3. Open het Claude paneel opnieuw (Ctrl+Shift+P → typ "Claude" → klik op "Claude: Open")
+> 4. Je ziet een leeg invoerveld. Typ `start` en druk op **Enter**
 >
-> **Terminal:**
+> **Terminal (Mac/Linux):**
 > 1. Typ `exit` om Claude af te sluiten
 > 2. Typ `cd north-star-claude-code`
-> 3. Typ `claude` om opnieuw te starten
-> 4. Typ `start` en druk op Enter
+> 3. Typ `claude` om Claude opnieuw te starten
+> 4. Typ `start` en druk op **Enter**
 >
-> **Claude Desktop:**
+> **Claude Desktop (de app):**
 > 1. Sluit het huidige project
 > 2. Open de map `north-star-claude-code` als nieuw project
-> 3. Typ `start` in het invoerveld en druk op Enter
+> 3. Typ `start` in het invoerveld en druk op **Enter**
+>
+> ---
+>
+> 💡 **Waarom?** Claude Code leest de skills en commando's alleen bij het opstarten in een projectmap. Door de map te openen en opnieuw te starten worden alle 15 marketing skills en de oefeningen automatisch beschikbaar.
 
 **🇬🇧 English:**
 
-> ✅ **The repo has been cloned!** Now you need to restart Claude Code in the workshop folder. Follow these 2 steps:
+> ✅ **The repo has been cloned!**
+>
+> The 15 marketing skills and workshop commands still need to be activated. This happens automatically when you open Claude Code in the workshop folder.
+>
+> **Follow these steps:**
 >
 > ---
 >
 > **VS Code:**
-> 1. Go to **File → Open Folder** and select the `north-star-claude-code` folder
-> 2. Reopen the Claude panel (Ctrl+Shift+P → "Claude: Open")
-> 3. Type `start` in the Claude input field and press Enter
+> 1. Go to **File → Open Folder**
+> 2. Select the `north-star-claude-code` folder
+> 3. Reopen the Claude panel (Ctrl+Shift+P → type "Claude" → click "Claude: Open")
+> 4. You'll see an empty input field. Type `start` and press **Enter**
 >
-> **Terminal:**
+> **Terminal (Mac/Linux):**
 > 1. Type `exit` to close Claude
 > 2. Type `cd north-star-claude-code`
-> 3. Type `claude` to start again
-> 4. Type `start` and press Enter
+> 3. Type `claude` to start Claude again
+> 4. Type `start` and press **Enter**
 >
-> **Claude Desktop:**
+> **Claude Desktop (the app):**
 > 1. Close the current project
 > 2. Open the `north-star-claude-code` folder as a new project
-> 3. Type `start` in the input field and press Enter
+> 3. Type `start` in the input field and press **Enter**
+>
+> ---
+>
+> 💡 **Why?** Claude Code only reads skills and commands when it starts up in a project folder. By opening the folder and restarting, all 15 marketing skills and exercises become available automatically.
 
-**STOP hier. Toon NIET het welkomstmenu. De gebruiker moet eerst herstarten.**
+**STOP hier. Toon NIET het welkomstmenu. De gebruiker moet eerst de map openen en herstarten.**
 
 ---
 
@@ -71,6 +89,8 @@ Wanneer de werkdirectory wél de workshop-repo is (er bestaan mappen als `exerci
 
 > **Welkom bij de North Star Claude Code Workshop!** ⭐
 >
+> ✅ De 15 marketing skills zijn geladen en klaar voor gebruik.
+>
 > Wat wil je doen?
 >
 > **1. 📚 Oefeningen starten** — Werk door 8 levels heen en leer Claude Code stap voor stap
@@ -82,13 +102,15 @@ Wanneer de werkdirectory wél de workshop-repo is (er bestaan mappen als `exerci
 >
 > **3. 📝 Skills & templates kopiëren naar je eigen project** — Neem de skills en een CLAUDE.md template mee
 > → Zeg: *"Kopieer alle marketing skills en het growth-marketer template naar mijn project op [pad]"*
-> → ⚠️ **Belangrijk: na het kopiëren moet je Claude Code herstarten** in je eigen project zodat de skills worden ingeladen
+> → ⚠️ **Let op:** na het kopiëren moet je Claude Code opnieuw openen in je eigen projectmap (zelfde stappen als bij de installatie) zodat de skills daar ook worden ingeladen
 
 ---
 
 **🇬🇧 English:**
 
 > **Welcome to the North Star Claude Code Workshop!** ⭐
+>
+> ✅ The 15 marketing skills are loaded and ready to use.
 >
 > What would you like to do?
 >
@@ -101,7 +123,7 @@ Wanneer de werkdirectory wél de workshop-repo is (er bestaan mappen als `exerci
 >
 > **3. 📝 Copy skills & templates to your own project** — Take the skills and a CLAUDE.md template with you
 > → Say: *"Copy all marketing skills and the growth-marketer template to my project at [path]"*
-> → ⚠️ **Important: after copying, you need to restart Claude Code** in your own project so the skills get loaded
+> → ⚠️ **Note:** after copying, you need to reopen Claude Code in your own project folder (same steps as the installation) so the skills get loaded there too
 
 ---
 
@@ -137,7 +159,7 @@ If no level number was provided, show an overview of all 8 levels with a short d
 
 ```
 .claude/commands/    → Slash commands for exercises
-.claude/skills/      → 15 marketing skills (active immediately)
+.claude/skills/      → 15 marketing skills (active immediately after opening this folder)
 exercises/           → 8 levels (NL: README.md / EN: README.en.md)
 templates/nl/        → CLAUDE.md templates (Nederlands)
 templates/en/        → CLAUDE.md templates (English)
@@ -147,7 +169,7 @@ cheatsheet/          → Claude Code quick reference
 
 ## Skills
 
-De `.claude/skills/` map bevat 15 marketing-specifieke skills die **automatisch actief** zijn in dit project. Ze activeren wanneer je een relevante vraag stelt:
+De `.claude/skills/` map bevat 15 marketing-specifieke skills die **automatisch actief** zijn zodra Claude Code geopend wordt in deze projectmap. Ze activeren wanneer je een relevante vraag stelt:
 
 | Skill | Trigger voorbeeld |
 |---|---|
@@ -173,7 +195,7 @@ Wanneer een gebruiker skills wil kopiëren naar een eigen project:
 
 1. Kopieer de `.claude/skills/` map naar het doelproject
 2. Optioneel: kopieer een template uit `templates/nl/` of `templates/en/` als `CLAUDE.md`
-3. **Geef ALTIJD deze herstart-instructies per platform (zie Scenario 1 hierboven)**
+3. **Geef ALTIJD de herstart-instructies per platform (zie Scenario 1 hierboven)** — de gebruiker moet Claude Code opnieuw openen in de projectmap waar de skills naartoe zijn gekopieerd
 
 ## Conventies
 

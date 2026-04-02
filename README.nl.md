@@ -15,37 +15,69 @@
 
 ---
 
-### 🚀 Quick Start — Drie stappen om te beginnen
+### 🚀 Aan de slag
 
 </div>
 
-#### Stap 1 — Kloon de repo
+Volg deze 3 stappen. **Doe ze in volgorde — elke stap bouwt voort op de vorige.**
 
-Open Claude Code waar je het hebt (VS Code, Terminal, of Claude Desktop) en plak:
+---
+
+#### Stap 1 — Download de workshop
+
+Open Claude Code (in VS Code, Terminal, of Claude Desktop) en plak dit:
 
 ```
 Clone de repo https://github.com/North-Star-AI-Academy/north-star-claude-code.git
 ```
 
-#### Stap 2 — Herstart Claude Code in de workshop-map
+Claude downloadt alle bestanden. Ga daarna verder met stap 2.
 
-Claude moet herstarten in de nieuwe map om de skills en commands in te laden. **Dit is verplicht — sla deze stap niet over!**
+---
 
-| Platform | Wat te doen |
-|---|---|
-| **VS Code** | Ga naar **File → Open Folder** → kies `north-star-claude-code` → heropen het Claude paneel (Ctrl+Shift+P → "Claude: Open") |
-| **Terminal** | Typ `exit` → dan `cd north-star-claude-code` → dan `claude` |
-| **Claude Desktop** | Sluit het project → open de map `north-star-claude-code` als nieuw project |
+#### Stap 2 — Open de workshop-map (dit activeert de skills)
+
+De 15 marketing skills en oefeningen werken alleen wanneer Claude Code draait **in de workshop-map**. Je moet die map openen en Claude herstarten:
+
+<details>
+<summary><strong>🖥️ Ik gebruik VS Code</strong> (klik om te openen)</summary>
+
+1. Ga in VS Code naar **File → Open Folder**
+2. Zoek en selecteer de map `north-star-claude-code`
+3. Heropen het Claude paneel: druk op `Ctrl+Shift+P` (of `Cmd+Shift+P` op Mac), typ **Claude**, en klik op **"Claude: Open"**
+
+</details>
+
+<details>
+<summary><strong>⬛ Ik gebruik Terminal</strong> (klik om te openen)</summary>
+
+1. Typ `exit` om Claude af te sluiten
+2. Typ `cd north-star-claude-code`
+3. Typ `claude` om opnieuw te starten
+
+</details>
+
+<details>
+<summary><strong>🖱️ Ik gebruik Claude Desktop</strong> (klik om te openen)</summary>
+
+1. Sluit het huidige project
+2. Open de map `north-star-claude-code` als nieuw project
+
+</details>
+
+> 💡 **Waarom deze stap?** Claude Code laadt skills en commando's wanneer het opstart in een map. Zonder deze stap zijn de 15 marketing skills niet beschikbaar.
+
+---
 
 #### Stap 3 — Typ `start` en druk op Enter
 
-Na de herstart zie je een leeg invoerveld. Typ:
+Na het heropenen zie je een leeg invoerveld. Typ:
 
 ```
 start
 ```
 
-> Claude leest het project, laadt de 15 marketing skills, en geeft je **3 opties** om uit te kiezen. ✨
+Claude laadt de workshop en geeft je **3 opties** om uit te kiezen. ✨
 
 ---
 
@@ -89,13 +121,7 @@ Neem alles mee om te gebruiken in je eigen projecten:
 Kopieer alle marketing skills en het growth-marketer template naar mijn project op /pad/naar/mijn-project
 ```
 
-> ⚠️ **Herstart vereist!** Na het kopiëren van skills naar een ander project moet je **Claude Code herstarten** in je projectmap en `start` typen. Skills worden alleen bij het opstarten ingeladen.
->
-> | Platform | Wat te doen |
-> |---|---|
-> | **VS Code** | **File → Open Folder** → kies je project → heropen het Claude paneel |
-> | **Terminal** | Typ `exit` → `cd je-project` → `claude` |
-> | **Claude Desktop** | Sluit het project → heropen je projectmap |
+> ⚠️ **Herhaal na het kopiëren stap 2 en 3 in je eigen projectmap.** Claude Code moet daar opnieuw opstarten om de skills in te laden.
 
 ---
 
