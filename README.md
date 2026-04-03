@@ -7,7 +7,7 @@
 ### *Claude Code: The Full Course 2026*
 
 **The hands-on repo for marketers mastering Claude Code.**<br>
-8 levels. 15 marketing skills. From zero to a repeatable AI workflow.
+8 levels. 15 marketing skills. 15 design systems. From zero to a repeatable AI workflow.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude_Code-2026-7C3AED.svg)](https://claude.ai/claude-code)
@@ -99,7 +99,7 @@ Start exercise 1
 
 ### 🎯 Path 2 — Use the marketing skills right away
 
-The 15 skills are **already active** in this project. Just ask a question:
+The 15 marketing skills + 15 design systems are **already active** in this project. Just ask a question:
 
 ```
 Write a LinkedIn post about AI trends for B2B marketers
@@ -138,7 +138,7 @@ All content is available in **English** and **Dutch**. Just tell Claude which la
 ```
 north-star-claude-code/
 │
-├── 🎯 .claude/skills/        15 marketing skills — ready to use
+├── 🎯 .claude/skills/        15 marketing skills + 15 design systems
 ├── ⚡ .claude/commands/       Slash commands for the workshop
 ├── 📚 exercises/              8 levels with hands-on assignments
 ├── 📝 templates/              CLAUDE.md per marketing role (en/ & nl/)
@@ -180,6 +180,32 @@ Skills **activate automatically** when you ask a relevant question. No configura
 | ✏️ `copy-editing` | "improve this copy..." | 4-pass editing system |
 | 🧪 `ab-testing` | "set up A/B test..." | Hypothesis → experiment → measurement |
 | 🎨 `product-context` | "brand context..." | Foundation for all other skills |
+
+## 🎨 15 Design Systems
+
+Design systems from world-class brands. Tell Claude "build a page that looks like Stripe" and get pixel-perfect UI with the right colors, typography, spacing, and shadows.
+
+| Skill | Brand | Best for |
+|---|---|---|
+| 🟣 `design-stripe` | Stripe | Fintech, premium SaaS, clean data |
+| 🏠 `design-airbnb` | Airbnb | Marketplaces, travel, warm UX |
+| 📝 `design-notion` | Notion | Productivity, content, minimal |
+| 🔵 `design-linear-app` | Linear | Dev tools, dark UI, sleek dashboards |
+| ▲ `design-vercel` | Vercel | Developer platforms, dark + minimal |
+| 🎨 `design-framer` | Framer | Creative tools, animated, bold |
+| 🟢 `design-spotify` | Spotify | Entertainment, dark UI, vibrant |
+| 🍎 `design-apple` | Apple | Premium brand, minimalist, editorial |
+| 🟡 `design-figma` | Figma | Design tools, colorful, playful |
+| ⚡ `design-superhuman` | Superhuman | Speed, luxury, dark + gold |
+| 📧 `design-resend` | Resend | Developer email, modern, clean |
+| 🌐 `design-webflow` | Webflow | No-code, creative, gradient |
+| 💬 `design-intercom` | Intercom | Customer support, friendly, blue |
+| 📅 `design-cal` | Cal.com | Scheduling, open source, neutral |
+| 📊 `design-posthog` | PostHog | Analytics, playful, bold accents |
+
+> 💡 **Tip:** Combine design skills with marketing skills! Example: *"Build me a Stripe-style landing page for my SaaS product"* — this activates both `design-stripe` and `landing-page`.
+
+*Design systems sourced from [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) (MIT license).*
 
 ## 📝 CLAUDE.md Templates
 

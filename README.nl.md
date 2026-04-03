@@ -7,7 +7,7 @@
 ### *Claude Code: The Full Course 2026*
 
 **De hands-on repo voor marketeers die Claude Code leren beheersen.**<br>
-8 levels. 15 marketing skills. Van nul tot een herhaalbaar AI-werkproces.
+8 levels. 15 marketing skills. 15 design systems. Van nul tot een herhaalbaar AI-werkproces.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude_Code-2026-7C3AED.svg)](https://claude.ai/claude-code)
@@ -99,7 +99,7 @@ Start oefening 1
 
 ### 🎯 Pad 2 — Gebruik de marketing skills meteen
 
-De 15 skills zijn **al actief** in dit project. Stel gewoon een vraag:
+De 15 marketing skills + 15 design systems zijn **al actief** in dit project. Stel gewoon een vraag:
 
 ```
 Schrijf een LinkedIn post over AI trends voor B2B marketeers
@@ -138,7 +138,7 @@ Alle content is beschikbaar in **Engels** en **Nederlands**. Vertel Claude gewoo
 ```
 north-star-claude-code/
 │
-├── 🎯 .claude/skills/        15 marketing skills — direct bruikbaar
+├── 🎯 .claude/skills/        15 marketing skills + 15 design systems
 ├── ⚡ .claude/commands/       Slash commands voor de workshop
 ├── 📚 exercises/              8 levels met hands-on opdrachten
 ├── 📝 templates/              CLAUDE.md per marketing rol (en/ & nl/)
@@ -180,6 +180,32 @@ Skills worden **automatisch geactiveerd** wanneer je een relevante vraag stelt. 
 | ✏️ `copy-editing` | "verbeter deze copy..." | 4-pass editing systeem |
 | 🧪 `ab-testing` | "A/B test opzetten..." | Hypothese → experiment → meting |
 | 🎨 `product-context` | "brand context..." | Fundament voor alle andere skills |
+
+## 🎨 15 Design Systems
+
+Design systems van wereldklasse merken. Zeg tegen Claude "bouw een pagina die eruitziet als Stripe" en krijg pixel-perfect UI met de juiste kleuren, typografie, spacing en schaduwen.
+
+| Skill | Merk | Ideaal voor |
+|---|---|---|
+| 🟣 `design-stripe` | Stripe | Fintech, premium SaaS, clean data |
+| 🏠 `design-airbnb` | Airbnb | Marktplaatsen, travel, warme UX |
+| 📝 `design-notion` | Notion | Productiviteit, content, minimaal |
+| 🔵 `design-linear-app` | Linear | Dev tools, dark UI, strakke dashboards |
+| ▲ `design-vercel` | Vercel | Developer platforms, dark + minimaal |
+| 🎨 `design-framer` | Framer | Creatieve tools, geanimeerd, bold |
+| 🟢 `design-spotify` | Spotify | Entertainment, dark UI, levendig |
+| 🍎 `design-apple` | Apple | Premium merk, minimalistisch, editorial |
+| 🟡 `design-figma` | Figma | Design tools, kleurrijk, speels |
+| ⚡ `design-superhuman` | Superhuman | Snelheid, luxe, dark + goud |
+| 📧 `design-resend` | Resend | Developer email, modern, clean |
+| 🌐 `design-webflow` | Webflow | No-code, creatief, gradient |
+| 💬 `design-intercom` | Intercom | Klantenservice, vriendelijk, blauw |
+| 📅 `design-cal` | Cal.com | Scheduling, open source, neutraal |
+| 📊 `design-posthog` | PostHog | Analytics, speels, opvallende accenten |
+
+> 💡 **Tip:** Combineer design skills met marketing skills! Voorbeeld: *"Bouw een Stripe-achtige landing page voor mijn SaaS product"* — dit activeert zowel `design-stripe` als `landing-page`.
+
+*Design systems afkomstig van [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) (MIT licentie).*
 
 ## 📝 CLAUDE.md Templates
 
